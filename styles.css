@@ -174,8 +174,6 @@ li>a:only-child:after {
 }
 /* END OF NAV */
 
-
-
 /* Hides overflowed content. START OF CAROUSEL */
 .carousel {
 	overflow: hidden;
@@ -237,7 +235,6 @@ li>a:only-child:after {
 	}
 	
 }
-
 /* END OF CAROUSEL */
 
 /* Rounds the corners of whatever uses this */
@@ -316,8 +313,6 @@ p {
 	padding: 70px 0 0;
 }
 /* END OF TEXT STUFF */
-
-
 
 /* START OF TABLE STUFF */
 table {
@@ -460,7 +455,6 @@ table td {
 }
 /* END OF GRID STUFF */
 
-
 /* Styling things within the footer. START OF FOOTER*/
 footer {
 	padding: 20px 45px 0 0;
@@ -488,11 +482,8 @@ footer a {
 }
 /* END OF FOOTER */
 
-
-
 /* Targets all types of media with a max width of 450px */
-@media all and (max-width: 550px) {
-	
+@media all and (max-width: 550px) {	
 	nav {
 		margin: 0;
 	}
@@ -565,8 +556,6 @@ footer a {
 	nav ul ul ul li {
 		position: static;
 	}
-	
-	
 }
 
 /* Makes the grid repeat in different ways at these screen sizes */
